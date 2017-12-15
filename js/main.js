@@ -9,7 +9,7 @@
 			(navigator.platform.indexOf("iPod") != -1)
 	    );
 	};
-    console.log('hii');
+
 	var fullHeight = function() {
 		if ( !isiPad() && !isiPhone() ) {
 			$('.js-fullheight').css('height', $(window).height());
